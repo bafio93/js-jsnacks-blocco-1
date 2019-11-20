@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+body {
+    height: 100vh;
+    padding-top: 40vh;
+    text-align: center;
+    background-color: salmon;
+    animation-name: nice;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    font-size: 250%;
+    color: white;
+}
+
+@keyframes nice {
+    0% {background-color: salmon;}
+    50% {background-color: pink;}
+    100% {background-color: salmon;}
+}
